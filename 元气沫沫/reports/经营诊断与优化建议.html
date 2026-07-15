@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>元气沫沫 · 经营诊断与优化建议</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f5f0; color: #2c2c2c; line-height: 1.8; }
+  .page { max-width: 800px; margin: 0 auto; padding: 40px 24px 80px; }
+  .cover { text-align: center; padding: 80px 0 60px; }
+  .cover h1 { font-size: 32px; font-weight: 700; letter-spacing: 2px; margin-bottom: 12px; }
+  .cover .sub { font-size: 15px; color: #888; }
+  .cover .divider { width: 40px; height: 3px; background: #d4a853; margin: 24px auto; }
+  .section { margin: 48px 0; }
+  .section h2 { font-size: 20px; font-weight: 700; border-left: 4px solid #d4a853; padding-left: 14px; margin-bottom: 20px; }
+  .card { background: #fff; border-radius: 10px; padding: 24px; margin: 16px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+  .card h3 { font-size: 16px; margin-bottom: 10px; }
+  .kpi-row { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
+  .kpi { background: #faf8f5; border-radius: 8px; padding: 16px 20px; flex: 1; min-width: 120px; text-align: center; }
+  .kpi .val { font-size: 22px; font-weight: 700; color: #2c2c2c; }
+  .kpi .lab { font-size: 12px; color: #999; margin-top: 4px; }
+  .kpi.up .val { color: #2e7d32; }
+  .kpi.down .val { color: #c62828; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 12px 0; }
+  th { text-align: left; padding: 10px 8px; border-bottom: 2px solid #e0d8c8; color: #666; font-weight: 600; font-size: 12px; }
+  td { padding: 10px 8px; border-bottom: 1px solid #f0ebe0; }
+  .tag { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+  .tag-red { background: #fce4e4; color: #c62828; }
+  .tag-yellow { background: #fff3e0; color: #e65100; }
+  .tag-green { background: #e8f5e9; color: #2e7d32; }
+  .insight { background: #fef9f0; border-left: 3px solid #d4a853; padding: 14px 18px; margin: 16px 0; font-size: 14px; border-radius: 0 8px 8px 0; }
+  .insight strong { color: #b8860b; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; font-size: 14px; }
+  .priority { display: flex; gap: 8px; align-items: flex-start; margin: 14px 0; }
+  .priority .num { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: #fff; flex-shrink: 0; }
+  .p0 .num { background: #c62828; }
+  .p1 .num { background: #e65100; }
+  .p2 .num { background: #1565c0; }
+  .footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 60px; padding-top: 30px; border-top: 1px solid #e8e4d8; }
+  .highlight { color: #c62828; font-weight: 600; }
+  .good { color: #2e7d32; font-weight: 600; }
+  @media (max-width: 600px) {
+    .kpi-row { flex-direction: column; }
+    .page { padding: 24px 16px 60px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- 封面 -->
+<div class="cover">
+  <h1>元气沫沫</h1>
+  <div class="sub">经营诊断与优化建议</div>
+  <div class="divider"></div>
+  <div class="sub">2026年7月 · 基于实际经营数据分析</div>
+</div>
+
+<!-- ==================== 一、核心发现 ==================== -->
+<div class="section">
+  <h2>一、当前经营概况</h2>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="val">¥56.0万</div><div class="lab">6月营业收入</div></div>
+    <div class="kpi up"><div class="val">+10.3%</div><div class="lab">订单环比增长</div></div>
+    <div class="kpi"><div class="val">50.8%</div><div class="lab">毛利率</div></div>
+    <div class="kpi down"><div class="val">¥12.11</div><div class="lab">客单价 ↓5.5%</div></div>
+  </div>
+
+  <div class="card">
+    <h3>📈 规模持续增长，但利润增速落后</h3>
+    <p>6月订单量46,262单，环比增长10.3%，收入增长3.8%。然而客单价从年初¥14.55持续下滑至¥12.11，降幅达16.8%。低客单品类（饮品+10.3%、方便食品+15.4%）的增长速度远超三明治（-0.1%）等高客单品类，形成"量增利薄"的结构性矛盾。</p>
+  </div>
+
+  <div class="card">
+    <h3>✅ 好消息：报损大幅改善</h3>
+    <p>6月报损金额¥19,033，环比下降40.7%。5月的三次集中报损教训已转化为更审慎的订货习惯。</p>
+  </div>
+
+  <div class="insight">
+    <strong>核心矛盾：</strong>订单量18个月翻了6.3倍，但客单价下降了40%。规模增长的红利正在被品类结构下沉所稀释。
+  </div>
+</div>
+
+<!-- ==================== 二、问题诊断 ==================== -->
+<div class="section">
+  <h2>二、需要关注的四个问题</h2>
+
+  <div class="card">
+    <h3>问题一 · 客单价持续下行</h3>
+    <table>
+      <tr><th>时期</th><th>客单价</th><th>主要品类结构</th></tr>
+      <tr><td>2025上半年</td><td>¥19.03</td><td>三明治为主，饮品为辅</td></tr>
+      <tr><td>2025下半年</td><td>¥16.04</td><td>品类拓展，饮品占比提升</td></tr>
+      <tr><td>2026上半年</td><td>¥13.09</td><td>方便食品+饮品占比31.8%</td></tr>
+      <tr><td>2026年6月</td><td class="highlight">¥12.11</td><td>瓶装饮料¥3-5和泡面¥6贡献增量</td></tr>
+    </table>
+    <div class="insight"><strong>影响：</strong>即便订单翻6倍，毛利额的增长远不足以匹配门店扩张的成本。客单价每降¥1，月利润减少¥4.6万。</div>
+  </div>
+
+  <div class="card">
+    <h3>问题二 · 有效SKU占比偏低</h3>
+    <p>方便食品品类32个SKU中，仅红烧牛肉面（日均¥269）等约10个单品贡献了绝大部分收入。有11款单品日均销量低于5元，9款6月中旬上线的新品全部表现不佳（日均0.6-2.3元）。健康零食品类除溏心卤蛋外，其余5款均处于淘汰线以下。</p>
+    <div class="insight"><strong>影响：</strong>大量低效SKU占用陈列空间和库存资金，而真正好卖的单品反而面临补货不足。</div>
+  </div>
+
+  <div class="card">
+    <h3>问题三 · 6家门店周末收入缺失</h3>
+    <p>三元桥、人民大学、草桥、望京东、高家园、和平西桥仅工作日营业，每周损失约30%的潜在营业时间。其中望京东6月收入增长21.8%，周末客流很可能足以支撑运营。</p>
+  </div>
+
+  <div class="card">
+    <h3>问题四 · 节假日备货仍有优化空间</h3>
+    <p>朝阳站近三次长假（五一、六一、端午）均出现集中报损。端午当日备货量沿用节前高峰水平，导致单日报损¥2,251，其中奥尔良三明治110份¥1,430。节假日客流预测偏差是反复出现的问题。</p>
+  </div>
+</div>
+
+<!-- ==================== 三、优化建议 ==================== -->
+<div class="section">
+  <h2>三、优化建议</h2>
+
+  <h3 style="color:#c62828; margin:20px 0 12px;">🔴 本周即可执行</h3>
+
+  <div class="priority p0">
+    <div class="num">1</div>
+    <div>
+      <strong>精简SKU，淘汰11款低效单品</strong>
+      <p style="color:#666;font-size:13px;">目标：方便食品从32个SKU压缩至15-18个，健康零食压缩至1-2个。释放的陈列空间交给高周转单品。</p>
+    </div>
+  </div>
+
+  <div class="priority p0">
+    <div class="num">2</div>
+    <div>
+      <strong>9款新品试点终止，不扩至其他门店</strong>
+      <p style="color:#666;font-size:13px;">6月15日试点的预包装零食（奥利奥、妙芙等）在一个月观察期内全部未达最低标准，建议到期后统一回仓。</p>
+    </div>
+  </div>
+
+  <div class="priority p0">
+    <div class="num">3</div>
+    <div>
+      <strong>5款热销品紧急补货</strong>
+      <p style="color:#666;font-size:13px;">双汇玉米肠（可用5天）、盐焗鸡蛋（6天）、农夫水（8天）、香辣肠（10天）、冰红茶（12天）。</p>
+    </div>
+  </div>
+
+  <h3 style="color:#e65100; margin:30px 0 12px;">🟡 本月推进</h3>
+
+  <div class="priority p1">
+    <div class="num">4</div>
+    <div>
+      <strong>低客单门店推套餐组合</strong>
+      <p style="color:#666;font-size:13px;">高家园客单价¥9.13、草桥¥9.51，低于¥10警戒线。建议"三明治+饮品"套餐¥15，综合毛利率仍可维持在50%以上。先在2家门店试点2周。</p>
+    </div>
+  </div>
+
+  <div class="priority p1">
+    <div class="num">5</div>
+    <div>
+      <strong>黑松露鳕鱼排三明治全店推广</strong>
+      <p style="color:#666;font-size:13px;">6月22日上线，日均30份，在12家门店中表现稳定。7月22日观察期满后可纳入正式SKU。</p>
+    </div>
+  </div>
+
+  <div class="priority p1">
+    <div class="num">6</div>
+    <div>
+      <strong>建立每日运营数据回顾机制</strong>
+      <p style="color:#666;font-size:13px;">每天花10分钟看三个数字：总收入、客单价、异常门店。异常门店当天跟进，不等周会。</p>
+    </div>
+  </div>
+
+  <h3 style="color:#1565c0; margin:30px 0 12px;">🔵 Q3规划</h3>
+
+  <div class="priority p2">
+    <div class="num">7</div>
+    <div>
+      <strong>智能订货替代人工经验</strong>
+      <p style="color:#666;font-size:13px;">将18个月的历史销量、天气数据、节假日规律系统化，输出每日订货建议。预期将报损率从3.5%降至2.5%以内。</p>
+    </div>
+  </div>
+
+  <div class="priority p2">
+    <div class="num">8</div>
+    <div>
+      <strong>金枪鱼三明治替代品规划</strong>
+      <p style="color:#666;font-size:13px;">金枪鱼月销¥1.2万，下架日期待定。需提前确定替代SKU，避免核心品类出现空窗。</p>
+    </div>
+  </div>
+
+  <div class="priority p2">
+    <div class="num">9</div>
+    <div>
+      <strong>望京东周末营业试点</strong>
+      <p style="color:#666;font-size:13px;">日均收入¥919，增长势头+21.8%，是周末开店最有潜力的门店。4周试点后根据实际收入决策是否固定。</p>
+    </div>
+  </div>
+
+  <div class="priority p2">
+    <div class="num">10</div>
+    <div>
+      <strong>早餐订阅卡会员模式探索</strong>
+      <p style="color:#666;font-size:13px;">基于通勤族"每天必经"的场景优势，¥99/月早餐卡可锁定高频消费。先在朝阳站、平安里试点。</p>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== 四、品类诊断 ==================== -->
+<div class="section">
+  <h2>四、各品类健康度速览</h2>
+
+  <table>
+    <tr><th>品类</th><th>6月收入</th><th>占比</th><th>毛利率</th><th>趋势</th><th>状态</th></tr>
+    <tr><td>三明治</td><td>¥108,624</td><td>22.4%</td><td>49.8%</td><td>-0.1%</td><td><span class="tag tag-yellow">核心但停滞</span></td></tr>
+    <tr><td>缤纷饮品</td><td>¥103,361</td><td>21.3%</td><td>47.6%</td><td>+10.3%</td><td><span class="tag tag-green">增长引擎</span></td></tr>
+    <tr><td>手作面包</td><td>¥83,661</td><td>17.3%</td><td>56.8%</td><td>+6.3%</td><td><span class="tag tag-green">利润主力</span></td></tr>
+    <tr><td>热狗汉堡</td><td>¥54,373</td><td>11.2%</td><td>58.5%</td><td>+3.7%</td><td><span class="tag tag-green">利润主力</span></td></tr>
+    <tr><td>方便食品</td><td>¥50,766</td><td>10.5%</td><td>36.8%</td><td>+15.4%</td><td><span class="tag tag-yellow">增长快但毛利低</span></td></tr>
+    <tr><td>手工吐司</td><td>¥42,414</td><td>8.7%</td><td>57.3%</td><td>+4.5%</td><td><span class="tag tag-green">利润主力</span></td></tr>
+    <tr><td>点心蛋糕</td><td>¥17,892</td><td>3.7%</td><td>51.6%</td><td>-9.2%</td><td><span class="tag tag-red">萎缩中</span></td></tr>
+    <tr><td>健康零食</td><td>¥7,198</td><td>1.5%</td><td>39.5%</td><td>+74.9%</td><td><span class="tag tag-yellow">增速高但基数小</span></td></tr>
+    <tr><td>甜品</td><td>¥1,476</td><td>0.3%</td><td>39.9%</td><td>-48.0%</td><td><span class="tag tag-red">建议缩减</span></td></tr>
+  </table>
+
+  <div class="insight">
+    <strong>结构性矛盾：</strong>增长最快的品类（饮品+10.3%、方便食品+15.4%）毛利率偏低（47.6%、36.8%）。毛利最高的品类（热狗汉堡58.5%、吐司57.3%）增速温和。需要平衡"规模"与"利润"——通过套餐将高毛利和低毛利品类绑定销售。
+  </div>
+</div>
+
+<!-- ==================== 五、门店健康度 ==================== -->
+<div class="section">
+  <h2>五、门店健康度一览</h2>
+
+  <table>
+    <tr><th>梯队</th><th>门店</th><th>月收入</th><th>日均</th><th>毛利率</th><th>6月趋势</th></tr>
+    <tr><td>🥇</td><td>北京朝阳站</td><td>¥192,635</td><td>¥6,421</td><td>49.7%</td><td>↑ +2.8%</td></tr>
+    <tr><td>🥈</td><td>平安里</td><td>¥82,998</td><td>¥2,767</td><td>52.2%</td><td>↓ -9.4%</td></tr>
+    <tr><td>🥈</td><td>蓟门桥</td><td>¥68,245</td><td>¥2,275</td><td>51.9%</td><td>↑ +10.3%</td></tr>
+    <tr><td>🥉</td><td>鼓楼大街</td><td>¥55,696</td><td>¥1,856</td><td>50.9%</td><td>↑ +0.7%</td></tr>
+    <tr><td>🥉</td><td>安华桥</td><td>¥35,836</td><td>¥1,558</td><td>51.1%</td><td>↑ +12.5%</td></tr>
+    <tr><td>—</td><td>北沙滩</td><td>¥26,687</td><td>¥1,026</td><td>49.4%</td><td>↑ +10.8%</td></tr>
+    <tr><td>—</td><td>三元桥</td><td>¥23,819</td><td>¥1,134</td><td>49.5%</td><td>↑ +14.5%</td></tr>
+    <tr><td>—</td><td>人民大学</td><td>¥23,531</td><td>¥1,121</td><td>51.5%</td><td>↑ +6.1%</td></tr>
+    <tr><td>—</td><td>望京东</td><td>¥19,300</td><td>¥919</td><td>51.1%</td><td>↑ +21.8% ⭐</td></tr>
+    <tr><td>—</td><td>高家园</td><td>¥11,829</td><td>¥563</td><td>52.9%</td><td>↓ -1.6%</td></tr>
+    <tr><td>—</td><td>和平西桥</td><td>¥11,670</td><td>¥1,186</td><td>52.1%</td><td>↑ 恢复中</td></tr>
+    <tr><td>—</td><td>草桥</td><td>¥8,065</td><td>¥384</td><td>51.1%</td><td>↑ +2.7%</td></tr>
+  </table>
+
+  <div class="insight">
+    <strong>关注点：</strong>望京东（+21.8%）是增速最高的门店，周末营业潜力大。高家园（日均¥563，客单价¥9.61）持续低迷，需要套餐干预。平安里（-9.4%）虽体量大但需关注下滑原因。
+  </div>
+</div>
+
+<!-- ==================== 六、TOP10单品 ==================== -->
+<div class="section">
+  <h2>六、6月销量TOP10单品</h2>
+
+  <table>
+    <tr><th>排名</th><th>单品</th><th>月收入</th><th>月销量</th><th>品类</th></tr>
+    <tr><td>1</td><td>香煎培根三明治</td><td>¥37,423</td><td>3,321份</td><td>三明治</td></tr>
+    <tr><td>2</td><td>奥尔良鸡腿三明治</td><td>¥36,518</td><td>3,204份</td><td>三明治</td></tr>
+    <tr><td>3</td><td>蒸蛋火腿三明治</td><td>¥17,734</td><td>1,534份</td><td>三明治</td></tr>
+    <tr><td>4</td><td>原味牛角</td><td>¥17,288</td><td>2,597份</td><td>手作面包</td></tr>
+    <tr><td>5</td><td>热狗肠多拿滋</td><td>¥14,767</td><td>1,186份</td><td>热狗汉堡</td></tr>
+    <tr><td>6</td><td>照烧鸡排多拿滋</td><td>¥14,325</td><td>1,162份</td><td>热狗汉堡</td></tr>
+    <tr><td>7</td><td>培根帕尼尼(大)</td><td>¥13,633</td><td>1,101份</td><td>热狗汉堡</td></tr>
+    <tr><td>8</td><td>金枪鱼三明治</td><td>¥12,100</td><td>1,053份</td><td>三明治</td></tr>
+    <tr><td>9</td><td>岩烧红豆包</td><td>¥11,743</td><td>1,919份</td><td>手作面包</td></tr>
+    <tr><td>10</td><td>猪扒包</td><td>¥11,649</td><td>1,216份</td><td>热狗汉堡</td></tr>
+  </table>
+
+  <div class="insight">
+    <strong>头部集中度高：</strong>前3名三明治合计月收入¥91,675，占品类收入的84%。TOP10单品贡献了约33%的总收入。保护和迭代头部单品远比增加长尾SKU重要。
+  </div>
+</div>
+
+<!-- ==================== 七、总结 ==================== -->
+<div class="section">
+  <h2>七、总结</h2>
+
+  <div class="card">
+    <p style="font-size:16px; line-height:2;">
+    元气沫沫目前在<span class="good">规模增长</span>上表现健康——订单量和收入持续攀升，毛利率稳定在50%以上，报损率已大幅改善。
+    </p>
+    <p style="font-size:16px; line-height:2; margin-top:8px;">
+    但<span class="highlight">三个结构性问题</span>需要关注：客单价持续下行稀释利润增速、低效SKU占用资源、部分门店周末收入缺失。
+    </p>
+    <p style="font-size:16px; line-height:2; margin-top:8px;">
+    <strong>未来三个月的方向很明确：</strong>精简SKU把资源集中到好卖的产品上、用套餐组合稳住客单价、逐步把数据化的运营流程建立起来。这些都不需要额外投入，但能让利润实打实地提升。
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+  元气沫沫 · 经营诊断与优化建议<br>
+  2026年7月 · 基于实际经营数据
+</div>
+
+</div>
+</body>
+</html>
