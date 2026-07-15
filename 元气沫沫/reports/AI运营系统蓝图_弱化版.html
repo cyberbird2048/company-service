@@ -405,6 +405,14 @@
     <strong>系统持续运行，您只需关注结果。</strong>每日早上打开日报了解前一日全貌，店长收到订货建议后确认即可。所有分析基于实际经营数据，建议附带数据依据。
   </div>
 </div>
+
+</div>
+
+<script>
+function switchTab(n) {
+  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active', i===n));
+  document.querySelectorAll('.section').forEach((s,i) => s.classList.toggle('active', i===n));
+}
 </script>
 </body>
 </html>
